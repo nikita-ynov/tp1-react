@@ -1,32 +1,48 @@
-# React + TypeScript + Vite
+# TP1 — React
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Ce projet correspond au **TP1 React**.
+Suivez les étapes ci-dessous pour installer les dépendances et lancer le projet en local.
 
-Currently, two official plugins are available:
+## 🚀 Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 1. Cloner le projet
 
-## React Compiler
+Clonez le repository depuis GitHub :
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+git clone https://github.com/nikita-ynov/tp1-react.git
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### 2. Accéder au projet
+
+```bash
+cd tp1-react
+```
+
+### 3. Installer les dépendances
+
+Installez les dépendances nécessaires avec npm :
+
+```bash
+npm install
+```
+
+## ▶️ Lancer le projet
+
+Démarrez le serveur de développement :
+
+```bash
+npm run dev
+```
+
+Une fois le serveur lancé, ouvrez l'URL indiquée dans le terminal pour accéder à l'application.
+
+## 🛠️ Technologies utilisées
+
+* React
+* JavaScript
+* Vite
+* npm
+
+
+**Auteur : Nikita Petrenko**
