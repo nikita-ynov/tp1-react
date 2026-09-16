@@ -1,0 +1,30 @@
+.Recipe {
+  margin-bottom: 2rem;
+}
+
+.Recipe .title {
+  display: flex;
+  align-items: center;
+}
+
+.Recipe .title .info,
+img {
+  width: 50%;
+  height: 50%;
+}
+
+.Recipe .title h1 {
+  line-height: 3rem;
+}
+
+.Recipe .other {
+  text-align: left;
+}
+.Recipe .left {
+    margin-bottom: 1rem;
+}
+
+.Recipe .left ul li,
+.right ul li {
+  list-style: numeric;
+}

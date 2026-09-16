@@ -1,0 +1,24 @@
+header {
+  border-bottom: 1px solid var(--border);
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav {
+  padding: 1rem;
+  transition: .3s;
+}
+
+header nav a:hover {
+    opacity: .5;
+}
+
+header nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
